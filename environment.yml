@@ -1,0 +1,10 @@
+name: bitcoin-mnemonic-missing-word-recovery
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - bip_utils==2.7.0
+    - mnemonic==0.20
